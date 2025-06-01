@@ -1,0 +1,11 @@
+# python program to find cube of a number using functions
+
+def my_function(n):
+    cube=n**3
+    print("Cube of a number =",cube)
+n=int(input("Enter the number:"))
+my_function(n)
+
+output:
+Enter the number:2
+Cube of a number = 8
