@@ -1,0 +1,19 @@
+# python program to find smallest among three numbers using functions
+
+def my_function(n1,n2,n3):
+    if n1<=n2 and n1<=n3:
+        print("Smallest number =",n1)
+    elif n2<=n1 and n2<=n3:
+        print("Smallest number =",n2)
+    else:
+        print("Smallest number =",n3)
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+n3=int(input("Enter the third number:"))
+my_function(n1,n2,n3)
+
+output:
+Enter the first number:2
+Enter the second number:3
+Enter the third number:4
+Smallest number = 2
