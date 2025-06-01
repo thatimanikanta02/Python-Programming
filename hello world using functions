@@ -1,0 +1,8 @@
+# python program to print hello world using functions
+
+def my_function():
+    print("Hello World!")
+my_function()
+
+output:
+Hello World!
