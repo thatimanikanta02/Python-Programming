@@ -1,0 +1,10 @@
+# python program to add two numbers using functions
+
+def my_function():
+    print("Add of two numbers =",n1+n2)
+n1=10
+n2=2
+my_function()
+
+output:
+Add of two numbers = 12
