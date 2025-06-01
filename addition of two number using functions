@@ -1,0 +1,13 @@
+# python program for addition of two number using functions
+
+def my_function(n1,n2):
+    add=n1+n2
+    print("Addition of two numbers =",add)
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+my_function(n1,n2)
+
+output:
+Enter the first number:2
+Enter the second number:3
+Addition of two numbers = 5
