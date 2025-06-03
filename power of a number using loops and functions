@@ -1,0 +1,15 @@
+# python program to find the power of a number using loops and functions
+
+def my_function(base,exponent):
+    result=1
+    for i in range(exponent):
+        result*=base
+    print("Power of a number =",result)
+base=int(input("Enter the base value:"))
+exponent=int(input("Enter the exponent value:"))
+my_function(base,exponent)
+
+output:
+Enter the base value:4
+Enter the exponent value:2
+Power of a number = 16
