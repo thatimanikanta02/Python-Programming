@@ -1,0 +1,9 @@
+# python program to reverse a sting
+
+s=input("Enter the string:")
+reverse=s[::-1]
+print("Reversed string =",reverse)
+
+output:
+Enter the string:python
+Reversed string = nohtyp
