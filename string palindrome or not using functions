@@ -1,0 +1,14 @@
+# python program to find string palindrome or not using functions
+
+def my_function(s,reversed):
+    if reversed==s:
+        print("Palindrome")
+    else:
+        print("Not palindrome")
+s=input("Enter the character:")
+reversed=s[::-1]
+my_function(s,reversed)
+
+output:
+Enter the string:madam
+Palindrome
