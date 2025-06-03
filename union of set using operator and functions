@@ -1,0 +1,11 @@
+# python program for union of set using operator and functions
+
+def my_function(s1,s2):
+    s3=s1|s2
+    print("Union of set =",s3)
+s1={1,2,3,4,5}
+s2={6,7,8,9}
+my_function(s1,s2)
+
+output:
+Union of set = {1, 2, 3, 4, 5, 6, 7, 8, 9}
