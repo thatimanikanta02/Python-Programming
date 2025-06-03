@@ -1,0 +1,10 @@
+# python program to find the maximum of tuple using functions
+
+def my_function(s):
+    maximum=max(s)
+    print("Maximum of tuple =",maximum)
+s=(1,2,3,4,5)
+my_function(s)
+
+output:
+Maximum of tuple = 5
