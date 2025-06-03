@@ -1,0 +1,8 @@
+# python program to find length of tuple
+
+s=(1,2,3,4,5)
+length=len(s)
+print("Length of tuple =",length)
+
+output:
+Length of tuple = 5
