@@ -1,0 +1,19 @@
+# python program to find number palindrome or not using functions
+
+def my_function(n):
+    reverse=0
+    original=n
+    while n>0:
+        digit=n%10
+        reverse=reverse*10+digit
+        n//=10
+    if original==reverse:
+        print("Number is palindrome")
+    else:
+        print("Number is not palindrome")
+n=int(input("Enter the number:"))
+my_function(n)
+
+output:
+Enter the number:123
+Reversed number = 321
