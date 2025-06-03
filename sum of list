@@ -1,0 +1,8 @@
+# python program to find the sum of list
+
+s=[1,2,3,4,5]
+add=sum(s)
+print("Sum of list =",add)
+
+output:
+Sum of list = 15
