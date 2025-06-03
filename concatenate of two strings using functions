@@ -1,0 +1,13 @@
+# pthon progeam for concatenate of two strings using functions
+
+def my_function(s1,s2):
+    concatenate=s1+s2
+    print("Concatenate of two strings =",concatenate)
+s1=input("Enter the first string:")
+s2=input("Enter the second string:")
+my_function(s1,s2)
+
+output:
+Enter the first string:python
+Enter the second string:programs
+Concatenate of two strings = pythonprograms
