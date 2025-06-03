@@ -1,0 +1,11 @@
+# python program to find person eligible to vote or not
+
+age=int(input("Enter the age of a person:"))
+if age>=18:
+    print("Person eligible to vote")
+else:
+    print("Person not eligible to vote he needs",18-age,"more years to vote")
+
+output:
+Enter the age of a person:12
+Person not eligible to vote he needs 6 more years to vote
