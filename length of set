@@ -1,0 +1,8 @@
+# python program to find the length of set
+
+s={1,2,3,4,5}
+length=len(s)
+print("Length of set =",length)
+
+output:
+Length of set = 5
