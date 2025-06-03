@@ -1,0 +1,8 @@
+# python program to sort tuple in descending order
+
+s=(1,5,3,2,4)
+s1=sorted(s,reverse=True)
+print("Sorted tuple in descending =",tuple(s1))
+
+output:
+Sorted tuple in descending = (5, 4, 3, 2, 1)
