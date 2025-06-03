@@ -1,0 +1,8 @@
+# python program to find the sum of tuple
+
+s=(1,2,3,4,5)
+add=sum(s)
+print("Sum of tuple =",add)
+
+output:
+Sum of tuple = 15
