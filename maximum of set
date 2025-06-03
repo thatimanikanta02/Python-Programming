@@ -1,0 +1,8 @@
+# python program to fnd the maximum of set
+
+s = {1, 2, 3, 4, 5}
+maximum = max(s)
+print("Maximum of set =", maximum)
+
+output:
+Maximum of set = 5
