@@ -1,0 +1,13 @@
+# python program for upper or lowercase using inbuilt
+
+c=input("Enter the character:")
+if c.isupper():
+    print("Uppercase alphabet")
+elif c.islower():
+    print("Lowercase alphabet")
+else:
+    print("Not an alphabet")
+
+output:
+Enter the character:f
+Lowercase alphabet
