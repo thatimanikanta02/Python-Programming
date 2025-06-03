@@ -1,0 +1,8 @@
+# python program to find the minimum of list
+
+s=[1,2,3,4,5]
+minimum=min(s)
+print("Minimum of list =",minimum)
+
+output:
+Minimum of list = 1
