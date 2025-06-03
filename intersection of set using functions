@@ -1,0 +1,11 @@
+# python program to find the intersection of set using functions
+
+def my_function(s1,s2):
+    s3=s1.intersection(s2)
+    print("Intersection of set =",s3)
+s1={1,2,3,5}
+s2={3,4,5}
+my_function(s1,s2)
+
+output:
+Intersection of set = {3, 5}
