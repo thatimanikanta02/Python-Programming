@@ -1,0 +1,10 @@
+# python program to sort tuple in ascending using functions
+
+def my_function(s):
+    s1=sorted(s)
+    print("Sorted tuple ascending =",tuple(s1))
+s=(1,5,4,3,2)
+my_function(s)
+
+output:
+Sorted tuple ascending = (1, 2, 3, 4, 5)
