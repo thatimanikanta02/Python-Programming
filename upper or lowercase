@@ -1,0 +1,13 @@
+# python program to find upper or lowercase
+
+c=input("Enter the character:")
+if c>='A'and c<='Z':
+    print("Uppercase alphabet")
+elif c>='a'and c<='z':
+    print("Lowercase alphabet")
+else:
+    print("Not an alphabet")
+
+output:
+Enter the character:d
+Lowercase alphabet
