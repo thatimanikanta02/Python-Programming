@@ -1,0 +1,8 @@
+# python program to find the maximum of list
+
+s=[1,2,3,4,5]
+maximum=max(s)
+print("Maximum of list =",maximum)
+
+output:
+Maximum of list = 5
