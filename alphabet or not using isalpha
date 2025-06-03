@@ -1,0 +1,11 @@
+# python program to find alphabet or not using isalpha
+
+s=input("Enter the character:")
+if s.isalpha():
+    print("Alphabet")
+else:
+    print("Not alphabet")
+
+output:
+Enter the character:A
+Alphabet
