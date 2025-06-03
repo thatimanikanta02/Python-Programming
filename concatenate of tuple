@@ -1,0 +1,9 @@
+# python program for concatenate of tuple
+
+s1=(1,2,3,4,5)
+s2=(6,7,8,9)
+concatenate=s1+s2
+print("Concatenate of tuple =",concatenate)
+
+output:
+Concatenate of tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9)
