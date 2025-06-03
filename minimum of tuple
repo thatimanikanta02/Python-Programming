@@ -1,0 +1,8 @@
+# python program to find the minimum of tuple
+
+s=(1,2,3,4,5)
+minimum=min(s)
+print("Minimum of tuple =",minimum)
+
+output:
+Minimum of tuple = 1
