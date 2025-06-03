@@ -1,0 +1,18 @@
+# python program for total and average of three numbers using functions
+
+def my_function(n1,n2,n3):
+    total=n1+n2+n2
+    average=total/3
+    print("Total of three numbers =",total)
+    print("Average three numbers =",average)
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+n3=int(input("Enter the third number:"))
+my_function(n1,n2,n3)
+
+output:
+Enter the first number:10
+Enter the second number:10
+Enter the third number:10
+Total of three numbers = 30
+Average of three numbers = 10.0
