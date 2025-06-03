@@ -1,0 +1,19 @@
+# python program to swap two numbers
+
+first=int(input("Enter the first number:"))
+second=int(input("Enter the second number:"))
+print("Before swapping first number =",first)
+print("Before swapping second number =",second)
+temp=first
+first=second
+second=temp
+print("After swapping first number =",first)
+print("After swapping second number =",second)
+
+output:
+Enter the first number:2
+Enter the second number:3
+Before swapping first number = 2
+Before swapping second number = 3
+After swapping first number = 3
+After swapping second number = 2
